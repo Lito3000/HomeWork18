@@ -1,0 +1,93 @@
+body {
+  font: 100% Poppins300Normal, sans-serif;
+  color: #333;
+}
+body header .org {
+  height: 800px;
+  display: flex;
+  flex-wrap: wrap;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+body header .container {
+  max-width: 1170px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+body header .container .org__content {
+  display: flex;
+  padding: 5px;
+}
+body header .container .org__content .org__info {
+  align-items: center;
+  width: 50%;
+  display: flex;
+}
+body header .container .org__content .org__button {
+  width: 50%;
+}
+body header .container .org__content .org__button ul {
+  justify-content: right;
+  display: flex;
+  list-style: none;
+  gap: 30px;
+}
+
+li {
+  margin: 0;
+}
+li a {
+  color: white;
+  text-decoration: none;
+  transition: 0.3s;
+  width: 114px;
+  justify-content: center;
+  align-items: center;
+  height: 44px;
+  display: flex;
+}
+li a:hover {
+  background: #0d98fd;
+  border-radius: 7px;
+  transition: 0.3s;
+}
+
+.super__chair__content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.super__chair__content h1 {
+  color: white;
+  font-size: 70px;
+  width: 590px;
+}
+.super__chair__content p {
+  color: white;
+  width: 416px;
+}
+.super__chair__content p a {
+  text-decoration: none;
+  color: #0d98fd;
+}
+.super__chair__content .submit {
+  background-color: #646466;
+  border-radius: 7px;
+  transition: 0.3s;
+  padding: 7px 27px;
+  border: none;
+  color: white;
+}
+.super__chair__content .submit:hover {
+  background: #0d98fd;
+  border-radius: 7px;
+  transition: 0.3s;
+}
+.super__chair__content .select {
+  display: flex;
+  gap: 20px;
+}
+
+/*# sourceMappingURL=style.css.map */
